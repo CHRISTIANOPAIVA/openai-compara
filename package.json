@@ -1,9 +1,9 @@
 {
-  "name": "openai-chatkit-starter-app",
-  "version": "0.1.0",
+  "name": "openai-compara",
+  " version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "unset OPENAI_API_KEY && next dev",
+    "dev": "node ./scripts/dev.js",
     "build": "next build",
     "start": "next start",
     "lint": "eslint"

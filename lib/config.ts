@@ -7,15 +7,15 @@ export const CREATE_SESSION_ENDPOINT = "/api/create-session";
 
 export const STARTER_PROMPTS: StartScreenPrompt[] = [
   {
-    label: "What can you do?",
-    prompt: "What can you do?",
+    label: "O quer você pode fazer?",
+    prompt: "O que você pode fazer?",
     icon: "circle-question",
   },
 ];
 
-export const PLACEHOLDER_INPUT = "Ask anything...";
+export const PLACEHOLDER_INPUT = "Pergunte qualquer coisa...";
 
-export const GREETING = "How can I help you today?";
+export const GREETING = "Como posso ajudar hoje?";
 
 export const getThemeConfig = (theme: ColorScheme): ThemeOption => ({
   color: {
